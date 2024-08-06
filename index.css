@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+.container{
+    justify-content: center;
+}
+@media only screen and (max-width:767px){
+    .bgNavarb{
+    background-image: linear-gradient(to right,#f54f5a,#f58529,#f64f59,#d267c4,#00ffff);
+    background-size: cover;
+    height: 50vh;
+}
+.bgNavbar{
+    display: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+.icon{
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.name{
+    color: white;
+    font-size: 27px;
+    font-weight: 200;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.search{
+    height: 30px;
+    margin-top: 40px ;
+    margin-right: 20px;
+}
+.aboutHead{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.about{
+    color: white;
+    text-align: center;
+    font-family: "Roboto";
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin: 25px;
+}
+.accountImage{
+    height: 60px;
+    width: 60px;
+}
+.searchBox{
+    display: none;
+}
+}
+@media (min-width:768px){
+    .bgNavarb{
+        display: none;
+    }
+    .bgNavbar{
+    background-image: linear-gradient(to bottom,#f54f5a,#f58529,#f64f59,#d267c4,#00ffff);
+    background-size: cover;
+    height: 50vh;
+    }
+    .navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+}
+.icon{
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.name{
+    color: white;
+    font-size: 27px;
+    font-weight: 200;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+.search{
+    height: 30px;
+    margin-top: 40px ;
+    margin-right: 60px;
+}
+.aboutHead{
+    margin-top: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 800;
+}
+.about{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin:30px;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    margin: 25px;
+}
+.accountImage{
+    height: 160px;
+    width: 160px;
+}
+.info{
+    font-size: 30px;
+}
+.dashboard{
+    color: white;
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.lists{
+    list-style: none;
+    display: flex;
+    margin-top: 40px;
+}
+.service{
+    margin-left: 10px;
+    font-size: 22px;
+    margin-right: 10px;
+}
+.searchBox{
+    display: flex;
+    justify-content: center;
+}
+#input{
+    height: 45px;
+    width: 40%;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+}
+.btn{
+    margin-left: 10px;
+    height: 45px;
+    width: 10%;
+    background-color:#3b82f6 ;
+    color: white;
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+.sections{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+}
